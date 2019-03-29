@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FirebaseApp</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="facebook_app_id">660678284389474</string>
+    <string name="fb_login_protocol_scheme">fb660678284389474</string>
+    <string name="InsertNote">Insert Note</string>
+    <string name="sign_out">Sign out</string>
+    <string name="log_out">Log out</string>
+    <string name="registerhere">Or Create a new account:</string>
+    <string name="signup">Sign Up</string>
+
+</resources>
