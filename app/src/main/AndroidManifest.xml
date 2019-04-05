@@ -13,7 +13,18 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".RegisterationActivity"></activity>
+        <activity android:name=".DataPayloadActivityForeground"></activity>
+        <activity android:name=".DataPayloadActivity" />
+
+        <service
+            android:name=".FirebaseMessaging"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".RegisterationActivity" />
         <activity android:name=".NoteDetails" />
         <activity android:name=".UserProfile" />
         <activity android:name=".Navigator">
@@ -24,6 +35,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
 
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"

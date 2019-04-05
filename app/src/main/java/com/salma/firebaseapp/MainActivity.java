@@ -43,10 +43,8 @@ public class MainActivity extends AppCompatActivity {
     SignInButton signInGoogle;
     EditText email;
     EditText password;
-    EditText displayName;
     String userEmail;
     String userPassword;
-    String userDisplayName;
     GoogleSignInClient googleSignInClient;
     CallbackManager callbackManager;
     FirebaseAuth firebaseAuth;

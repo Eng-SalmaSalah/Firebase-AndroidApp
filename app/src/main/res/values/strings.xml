@@ -9,5 +9,22 @@
     <string name="log_out">Log out</string>
     <string name="registerhere">Or Create a new account:</string>
     <string name="signup">Sign Up</string>
+    <string name="btngetToken">Get Token</string>
+    <string name="name">Name:</string>
+    <string name="Age">Age:</string>
+    <string name="Datapayloadwithnoti">Notification Msg Datapayload</string>
+    <string name="title">Notification Msg datapayload(background)</string>
+    <string name="title_foreground">Notification Msg datapayload(foreground)</string>
+    <string name="data">See sent data</string>
+    <string name="msg">Notification message (Foreground)</string>
+    <string name="NotificationPayload">Notification payload</string>
+    <string name="titl">title</string>
+    <string name="Body">Body:</string>
+    <string name="tit">Title:</string>
+    <string name="Datapayloadd">Data payload</string>
+    <string name="noname">no name sent</string>
+    <string name="noage">no age sent</string>
+    <string name="default_notification_channel_id">FirebaseApp</string>
+    <string name="fcm_message">Firebase App Msg</string>
 
 </resources>
